@@ -4,9 +4,9 @@ Sistema responsável por enviar email aos novos usuários cadastrados no banco d
 
 ## Desenvolvido usando:
 
-JAVA 17; 
-SpringBoot 3.0.3;
-Postgres;
+- JAVA 17; 
+- SpringBoot 3.0.3;
+- Postgres;
 
 # Nescessária a criação de váriaveis de ambientes:
 
