@@ -1,6 +1,6 @@
 # EnvioEmail
 
-Sistema responsável por enviar email aos novos usuários cadastrados no banco de dados.
+Sistema responsável por cadastrar novos usuários no banco de dados e simultaneamente enviar um email para ele.
 
 ## Desenvolvido usando:
 
@@ -10,10 +10,15 @@ Sistema responsável por enviar email aos novos usuários cadastrados no banco d
 
 # Nescessária a criação de váriaveis de ambientes:
 
-- "port" = endereço da porta que você for usar;
-- "db" = nome do seu banco de dados;
-- "PostgresDBpass" = senha de usuário ADMIN do seu banco postgres
-- "EmailUser" = email de sua conta gmail
-- "EmailPassworld" = senha para acessar sua conta gmail. 
+- "<b>port</b>" = endereço da porta que você for usar; 
+- "<b>db</b>" = nome do seu banco de dados;
+- "<b>PostgresDBpass</b>" = senha de usuário ADMIN do seu banco postgres
+- "<b>EmailUser</b>" = email de sua conta gmail
+- "<b>EmailPassworld</b>" = senha de app para acessar sua conta gmail, em caso de dúvidas de como criar uma, no fim da página segue um link de ajuda. 
+<br>
+<b>PS</b>: As variáveis são usadas no arquivo: <b>application.properties</b>
 
-- PS: As variáveis estão declaradas no arquivo: application.properties
+<br><br><br><br><hr>
+<b>LINK de como gerar Senha de APP no gmail: </b>
+
+https://support.google.com/accounts/answer/185833
